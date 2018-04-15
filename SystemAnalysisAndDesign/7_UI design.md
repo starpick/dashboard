@@ -3,6 +3,7 @@
 ---
 
 ## 1.UI 交互逻辑 vision1
+![此处输入图片的描述][16]
 
 ## 2.UI 原型图 vision1
 - Welcome 开始页面
@@ -81,3 +82,4 @@
   [13]: https://wx4.sinaimg.cn/mw1024/a111daecly1fqdnldwijqj209l0hlq2z.jpg
   [14]: https://wx2.sinaimg.cn/mw1024/a111daecly1fqdnma9kyyj208h0hj0sr.jpg
   [15]: https://wx4.sinaimg.cn/mw1024/a111daecly1fqdnldxtrqj209f0hfwep.jpg
+  [16]: http://wx3.sinaimg.cn/mw690/a111daecly1fqdpog6b5nj20wf0yddgw.jpg
