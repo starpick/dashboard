@@ -15,6 +15,8 @@
 	* 交替场景 ： 如果服务器出错，弹出相应的提示。
 	* 活动图
 ![](image/casual.png)
+	* UI界面： 
+	![](image/uisetting.png)
 
 ### 3. Fully Level
 **interact**交流互动
