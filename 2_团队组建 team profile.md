@@ -13,7 +13,7 @@
     <tbody>
        <tr>
             <th>15331212</th>
-            <th><a href="https://github.com/raybobo">raybobo</a><</th>
+            <th><a href="https://github.com/raybobo">raybobo</a></th>
             <th>Raybo</th>
             <th>架构师，开发工程师</th>
        </tr>
