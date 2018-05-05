@@ -17,6 +17,7 @@
             <th>Raybo</th>
             <th>架构师，开发工程师</th>
        </tr>
+       <tr>
             <th>15331334</th>
             <th><a href="https://github.com/mukae1997">mukae1997</a></th>
             <th>Yan</th>
@@ -58,6 +59,7 @@
             <th>负责项目前端实现，与界面和后端的对接以及测试</th>
             <th>开心就好</th>
        </tr>
+       <tr>
             <th>Yan</th>
             <th>负责项目后端服务器和数据库开发，负责需求整理细化</th>
             <th>长命百岁</th>
