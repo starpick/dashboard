@@ -48,7 +48,7 @@
 
 * X1 meet_recording
 
-  - [inception meeting (18-03-23)](X1 meet_recording inception meeting (18-03-23))
+  - [inception meeting (18-03-23)](Meet_recording/X1 meet_recording inception meeting (18-03-23))
 
 * X2 Tech/Work Report
 
