@@ -49,13 +49,12 @@
 	
 ## 3. Domian Model（领域模型）
 ## 4. State Model（状态模型）
-# State Model
 
-## Starpick and Comment State Model
+### Starpick and Comment State Model
 
 ![](image/comment.png)
 
-## Log on and Register State Model
+### Log on and Register State Model
 
 ![](image/login.png)
 
