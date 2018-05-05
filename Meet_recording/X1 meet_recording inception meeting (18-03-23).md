@@ -8,4 +8,4 @@
 
 ## 会议记录“思维导图”
 
-![starpick](../img/starpick.png)
+![starpick](./img/starpick.png)
