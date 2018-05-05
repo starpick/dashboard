@@ -1,7 +1,7 @@
 # Requirement specification（需求规格说明）
-## Usecase Diagram
+## 1. Usecase Diagram（用例图）
 ![](image/UseCase.png)
-## Use case 文本
+## 2. Use Cases（用例+活动图）
 ### 1. Brief Level
 * **注册register**：用户点击注册按钮进入注册页面，输入用户名、手机号和登录密码，在确认该手机号未注册过，并且用户名和密码符合要求后，可以弹窗提示用户注册成功并且自动跳转到首页。已注册用户可以点击该页的已有账号进入登录页面进行登录。
 * **登录login**：用户点击登录按钮进入登录页面，输入手机号和密码并点击登录，在验证后跳转到首页。未注册用户可以点击该页的需要账号进入注册页面进行注册。
@@ -46,3 +46,18 @@
 *  **发生频率** 可能会不断地发生。	
 *  UI原型    
 	![](https://wx1.sinaimg.cn/mw1024/a111daecly1fqdnldy397j209h0hj0t1.jpg)
+	
+## 3. Domian Model（领域模型）
+## 4. State Model（状态模型）
+# State Model
+
+## Starpick and Comment State Model
+
+![](image/comment.png)
+
+## Log on and Register State Model
+
+![](image/login.png)
+
+
+
