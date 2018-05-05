@@ -4,7 +4,7 @@
  
 * 1、About（项目规划）
 
-* 2、Team profile（团队组建）(2_团队组建 team profile)
+* 2、[Team profile（团队组建）](2_团队组建 team profile)
 
 * 3、Investigation（项目前期调研）
 
