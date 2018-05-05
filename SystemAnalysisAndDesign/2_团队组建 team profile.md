@@ -3,7 +3,7 @@
 ### 团队成员清单
 |学号|GitHub|英文名|角色|
 |---|----|----|----|
-|15331212|[raybobo](https://github.com/raybobo)|Raybo)|架构师，开发工程师|
+|15331212|[raybobo](https://github.com/raybobo)|Raybo|架构师，开发工程师|
 |15331334|[mukae1997](https://github.com/mukae1997)|Yan|产品经理，开发工程师|
 |15331341|[lonelyhope](https://github.com/lonelyhope)|Loneop|Js前端工程师，DevOps工程师|
 |15331345|[Angfu](https://github.com/Xuex1997)|Xue|客户经理，开发工程师|
