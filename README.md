@@ -42,14 +42,14 @@
 
 * 8、[生产规范与指南](8_生产规范与指南)  
 
- - 8.1 XX 代码规范
+  - 8.1 XX 代码规范
 
- - 8.2 REST API 设计规范
+  - 8.2 REST API 设计规范
 
 * X1 meet_recording
 
- - [inception meeting (18-03-23)](X1 meet_recording inception meeting (18-03-23))
+  - [inception meeting (18-03-23)](X1 meet_recording inception meeting (18-03-23))
 
 * X2 Tech/Work Report
 
- - 学号-title
+  - 学号-title
