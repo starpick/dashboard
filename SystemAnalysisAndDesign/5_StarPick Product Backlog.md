@@ -1,7 +1,5 @@
-﻿# StarPick Product Backlog
+# StarPick Product Backlog
 
-
----
 
 By 杨婕
 
