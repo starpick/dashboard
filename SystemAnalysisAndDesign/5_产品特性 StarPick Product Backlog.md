@@ -1,6 +1,5 @@
-﻿# StarPick Product Backlog
+# StarPick Product Backlog
 
----
 
 By 杨婕 15331356
 
