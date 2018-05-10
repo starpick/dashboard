@@ -1,0 +1,254 @@
+<LMModel Align="66" DisplayFlags="0" LineColor="#000000" FillStyle="none" LineWidth="1" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" ModelVersion="1.0" BackgroundColor="#ffffff" FontBold="0" BackgroundImagePlacement="0" FontItalic="0" ModificationDate="2018-04-29T16:39:27" Author="loneop" TextFlag="2048" CreationDate="2018-04-29T13:32:46" BackgroundType="0" FontStrikeOut="0" Name="starpick" BackgroundStyle="none" Version="2.2" NextOID="34" FontFamily="Arial" ><![CDATA[starpick logic model]]><LMEntityNormal width="185" x="23" TextField="2" Align="68" y="137" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="1" height="143" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="user" NextOID="11" FontFamily="Arial" >
+  <sink x="0.810811" y="0.923077" OID="10" />
+  <sink x="0.0378378" y="0.979021" OID="6" />
+  <sink x="0.621622" y="0" OID="7" />
+  <sink x="0.335135" y="0.972028" OID="8" />
+  <sink x="0.994595" y="0.125874" OID="9" />
+  <LMAttribute OID="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="2" Name="username" />
+  </LMAttribute>
+  <LMAttribute OID="2" Hidden="1" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="3" Name="password" />
+  </LMAttribute>
+  <LMAttribute OID="3" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="4" Name="phone" />
+  </LMAttribute>
+  <LMAttribute OID="4" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="5" Name="user_id" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="5" Name="uid" >
+   <Uses Class="LMAttribute" Path="1,4" Name="user_id" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMEntityNormal width="109" x="426" TextField="2" Align="68" y="124" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="6" height="137" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="pictureInfo" NextOID="11" FontFamily="Arial" ><![CDATA[?????????]]><sink x="0.40367" y="0.00729927" OID="2" />
+  <sink x="0" y="0.722628" OID="3" />
+  <sink x="0.954128" y="0.233577" OID="4" />
+  <sink x="0.0416667" y="0.168675" OID="5" />
+  <LMAttribute OID="1" >
+   <Uses Class="LMDataItem" Path="7" Name="picSrc" />
+  </LMAttribute>
+  <LMAttribute OID="6" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="9" Name="pic_id" />
+  </LMAttribute>
+  <LMAttribute OID="7" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="16" Name="idolName" />
+  </LMAttribute>
+  <LMAttribute OID="8" >
+   <Uses Class="LMDataItem" Path="17" Name="picIntro" />
+  </LMAttribute>
+  <LMAttribute OID="9" >
+   <Uses Class="LMDataItem" Path="18" Name="note" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="10" Name="pid" >
+   <Uses Class="LMAttribute" Path="6,6" Name="pic_id" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMRelationship BeginCardinality="0,n" TextField="2" Align="66" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="1072693248" EndArrowFlags="0" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="8" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" EndOrdinality="1" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="publish" EndCardinality="1,1" BeginTruncate="1" BeginArrowFlags="7" NextOID="6" Dependent="0" FontFamily="Arial" ><![CDATA[??????]]><point x="430" y="148" OID="1" SinkObjectOID="6" SinkOID="5" />
+  <point x="207" y="155" OID="2" SinkObjectOID="1" SinkOID="9" />
+  <TextHandle x="0.492462" y="0.264706" OID="3" />
+  <BeginRoleHandle x="-21" y="11" OID="4" />
+  <EndRoleHandle x="10" y="10" OID="5" />
+ </LMRelationship>
+ <LMEntityNormal width="101" x="269" TextField="2" Align="66" y="21" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="10" height="98" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="comment" NextOID="6" FontFamily="Arial" ><![CDATA[????????]]><sink x="0.960396" y="0.336735" OID="1" />
+  <sink x="0" y="0.323529" OID="2" />
+  <LMAttribute OID="3" >
+   <Uses Class="LMDataItem" Path="11" Name="comment_content" />
+  </LMAttribute>
+  <LMAttribute OID="4" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="12" Name="comment_id" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="5" Name="cid" >
+   <Uses Class="LMAttribute" Path="10,4" Name="comment_id" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMRelationship BeginCardinality="0,n" TextField="2" Align="66" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="1072693248" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="13" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" Dominant="1" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="make comment" EndCardinality="1,1" BeginTruncate="1" BeginArrowFlags="5" NextOID="6" FontFamily="Arial" ><![CDATA[??????]]><point x="269" y="52" OID="1" SinkObjectOID="10" SinkOID="2" />
+  <point x="138" y="137" OID="2" SinkObjectOID="1" SinkOID="7" />
+  <TextHandle x="0.207921" y="0.459459" OID="3" />
+  <BeginRoleHandle x="-25" y="-9" OID="4" />
+  <EndRoleHandle x="-3" y="10" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="0,n" TextField="2" Align="66" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="1072693248" EndArrowFlags="0" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="14" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" EndOrdinality="1" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="pic comments" EndCardinality="1,1" BeginTruncate="1" BeginArrowFlags="5" NextOID="6" FontFamily="Arial" ><![CDATA[?????]]><point x="366" y="54" OID="1" SinkObjectOID="10" SinkOID="1" />
+  <point x="470" y="125" OID="2" SinkObjectOID="6" SinkOID="2" />
+  <TextHandle x="0.755556" y="0.449664" OID="3" />
+  <BeginRoleHandle x="15" y="-27" OID="4" />
+  <EndRoleHandle x="1" y="12" OID="5" />
+ </LMRelationship>
+ <LMEntityNormal width="118" x="672" TextField="2" Align="66" y="120" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="15" height="165" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="tag" NextOID="9" FontFamily="Arial" ><![CDATA[????]]><sink x="0" y="0.0909091" OID="1" />
+  <LMAttribute OID="2" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="19" Name="cloth brand" />
+  </LMAttribute>
+  <LMAttribute OID="3" Identifier="1" >
+   <Uses Class="LMDataItem" Path="20" Name="cloth name" />
+  </LMAttribute>
+  <LMAttribute OID="4" >
+   <Uses Class="LMDataItem" Path="21" Name="intro" />
+  </LMAttribute>
+  <LMAttribute OID="5" >
+   <Uses Class="LMDataItem" Path="22" Name="price" />
+  </LMAttribute>
+  <LMAttribute OID="6" >
+   <Uses Class="LMDataItem" Path="23" Name="link" />
+  </LMAttribute>
+  <LMAttribute OID="7" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="24" Name="tag_id" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="8" Name="tid" ><![CDATA[tag id]]><Uses Class="LMAttribute" Path="15,7" Name="tag_id" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMRelationship BeginCardinality="0,n" TextField="2" Align="66" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="1072693248" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="25" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="pic's tags" EndCardinality="1,1" BeginTruncate="1" BeginArrowFlags="5" NextOID="6" FontFamily="Arial" ><![CDATA[?????]]><point x="672" y="135" OID="1" SinkObjectOID="15" SinkOID="1" />
+  <point x="530" y="156" OID="2" SinkObjectOID="6" SinkOID="4" />
+  <TextHandle x="0.490566" y="0.3125" OID="3" />
+  <BeginRoleHandle x="-30" y="8" OID="4" />
+  <EndRoleHandle x="17" y="-11" OID="5" />
+ </LMRelationship>
+ <LMEntityNormal width="158" x="302" TextField="2" Align="66" y="405" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="26" height="85" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="bookmark Pic" NextOID="5" FontFamily="Arial" ><![CDATA[??????]]><sink x="0.683544" y="0" OID="1" />
+  <sink x="0.0193548" y="0.306818" OID="2" />
+  <LMAttribute OID="3" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="27" Name="bookmark_id" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="4" Name="b_id" ><![CDATA[??]]></LMIdentifier>
+ </LMEntityNormal>
+ <LMRelationship BeginCardinality="1,1" BeginOrdinality="1" TextField="2" Align="66" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="0" EndArrowFlags="5" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="28" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="bookmarkPic_user" EndCardinality="0,n" BeginTruncate="1" BeginArrowFlags="0" NextOID="6" FontFamily="Arial" ><![CDATA[bookmarkPic_user]]><point x="85" y="276" OID="1" SinkObjectOID="1" SinkOID="8" />
+  <point x="305" y="431" OID="2" SinkObjectOID="26" SinkOID="2" />
+  <TextHandle x="0.5625" y="0.52" OID="3" />
+  <BeginRoleHandle x="27" y="21" OID="4" />
+  <EndRoleHandle x="-23" y="-16" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="1,1" TextField="2" Align="66" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="1072693248" EndArrowFlags="5" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="29" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="bookmarkPic_pic" EndCardinality="0,n" BeginTruncate="1" BeginArrowFlags="4" NextOID="6" FontFamily="Arial" ><![CDATA[bookmarkPic_pic]]><point x="426" y="223" OID="1" SinkObjectOID="6" SinkOID="3" />
+  <point x="410" y="405" OID="2" SinkObjectOID="26" SinkOID="1" />
+  <TextHandle x="0.455621" y="0.425414" OID="3" />
+  <BeginRoleHandle x="-29" y="10" OID="4" />
+  <EndRoleHandle x="10" y="10" OID="5" />
+ </LMRelationship>
+ <LMEntityNormal width="112" x="59" TextField="2" Align="66" y="403" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="30" height="75" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="bookmark User" NextOID="5" FontFamily="Arial" ><![CDATA[????]]><sink x="0.785714" y="0.0133333" OID="4" />
+  <sink x="0.178571" y="0" OID="1" />
+  <LMAttribute OID="2" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="31" Name="bookmark_id" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="3" Name="bid" >
+   <Uses Class="LMAttribute" Path="30,2" Name="bookmark_id" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMRelationship BeginCardinality="0,n" TextField="2" Align="66" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="1072693248" EndArrowFlags="5" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="32" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="bookmarkUser_book" EndCardinality="0,n" BeginTruncate="1" BeginArrowFlags="5" NextOID="6" FontFamily="Arial" ><![CDATA[?????]]><point x="79" y="403" OID="1" SinkObjectOID="30" SinkOID="1" />
+  <point x="30" y="277" OID="2" SinkObjectOID="1" SinkOID="6" />
+  <TextHandle x="0.272727" y="0.431507" OID="3" />
+  <BeginRoleHandle x="-18" y="-23" OID="4" />
+  <EndRoleHandle x="-10" y="14" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="0,n" TextField="2" Align="66" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="1072693248" EndArrowFlags="5" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="33" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="bookmarkUser_booked" EndCardinality="0,n" BeginTruncate="1" BeginArrowFlags="5" NextOID="6" FontFamily="Arial" ><![CDATA[??????]]><point x="147" y="404" OID="1" SinkObjectOID="30" SinkOID="4" />
+  <point x="173" y="269" OID="2" SinkObjectOID="1" SinkOID="10" />
+  <TextHandle x="0.185185" y="0.455882" OID="3" />
+  <BeginRoleHandle x="15" y="-29" OID="4" />
+  <EndRoleHandle x="6" y="12" OID="5" />
+ </LMRelationship>
+ <Validation>
+  <Rule Name="Model name missing" Value="Error" />
+  <Rule Name="Model comment missing" Value="Warning" />
+  <Rule Name="Model description missing" Value="Information" />
+  <Rule Name="Model author missing" Value="Warning" />
+  <Rule Name="Rule name missing" Value="Error" />
+  <Rule Name="Rule code missing" Value="Warning" />
+  <Rule Name="Rule comment missing" Value="Warning" />
+  <Rule Name="Rule description missing" Value="Information" />
+  <Rule Name="Rule name duplicate" Value="Error" />
+  <Rule Name="Rule code duplicate" Value="Error" />
+  <Rule Name="Rule not used" Value="Warning" />
+  <Rule Name="Domain name missing" Value="Error" />
+  <Rule Name="Domain code missing" Value="Warning" />
+  <Rule Name="Domain comment missing" Value="Warning" />
+  <Rule Name="Domain description missing" Value="Information" />
+  <Rule Name="Domain name duplicate" Value="Error" />
+  <Rule Name="Domain code duplicate" Value="Error" />
+  <Rule Name="Domain type missing" Value="Error" />
+  <Rule Name="Domain type unknown" Value="Error" />
+  <Rule Name="Domain not used" Value="Warning" />
+  <Rule Name="Data Item name missing" Value="Error" />
+  <Rule Name="Data Item code missing" Value="Warning" />
+  <Rule Name="Data Item comment missing" Value="Warning" />
+  <Rule Name="Data Item description missing" Value="Information" />
+  <Rule Name="Data Item name duplicate" Value="Error" />
+  <Rule Name="Data Item code duplicate" Value="Error" />
+  <Rule Name="Data Item type missing" Value="Error" />
+  <Rule Name="Data Item type unknown" Value="Error" />
+  <Rule Name="Data Item not used" Value="Warning" />
+  <Rule Name="Entity name missing" Value="Error" />
+  <Rule Name="Entity code missing" Value="Warning" />
+  <Rule Name="Entity comment missing" Value="Warning" />
+  <Rule Name="Entity description missing" Value="Information" />
+  <Rule Name="Entity name duplicate" Value="Error" />
+  <Rule Name="Entity code duplicate" Value="Error" />
+  <Rule Name="Entity attribute missing" Value="Error" />
+  <Rule Name="Entity primary identifier missing" Value="Warning" />
+  <Rule Name="Association name missing" Value="Error" />
+  <Rule Name="Association code missing" Value="Warning" />
+  <Rule Name="Association comment missing" Value="Warning" />
+  <Rule Name="Association description missing" Value="Information" />
+  <Rule Name="Association name duplicate" Value="Error" />
+  <Rule Name="Association code duplicate" Value="Error" />
+  <Rule Name="Association link missing" Value="Error" />
+  <Rule Name="Inheritance name missing" Value="Error" />
+  <Rule Name="Inheritance code missing" Value="Warning" />
+  <Rule Name="Inheritance comment missing" Value="Warning" />
+  <Rule Name="Inheritance description missing" Value="Information" />
+  <Rule Name="Inheritance name duplicate" Value="Warning" />
+  <Rule Name="Inheritance code duplicate" Value="Warning" />
+  <Rule Name="Inheritance link missing" Value="Error" />
+  <Rule Name="Relationship name missing" Value="Error" />
+  <Rule Name="Relationship code missing" Value="Warning" />
+  <Rule Name="Relationship comment missing" Value="Warning" />
+  <Rule Name="Relationship description missing" Value="Information" />
+  <Rule Name="Relationship name duplicate" Value="Warning" />
+  <Rule Name="Relationship code duplicate" Value="Warning" />
+  <Rule Name="Relationship child entity missing" Value="Error" />
+  <Rule Name="Relationship parent entity missing" Value="Error" />
+  <Rule Name="Association Link name missing" Value="Error" />
+  <Rule Name="Association Link code missing" Value="Warning" />
+  <Rule Name="Association Link comment missing" Value="Warning" />
+  <Rule Name="Association Link description missing" Value="Information" />
+  <Rule Name="Association Link name duplicate" Value="Warning" />
+  <Rule Name="Association Link code duplicate" Value="Warning" />
+  <Rule Name="Association Link entity missing" Value="Error" />
+  <Rule Name="Association Link association missing" Value="Error" />
+  <Rule Name="Inheritance Link name missing" Value="" />
+  <Rule Name="Inheritance Link code missing" Value="" />
+  <Rule Name="Inheritance Link comment missing" Value="" />
+  <Rule Name="Inheritance Link description missing" Value="" />
+  <Rule Name="Inheritance Link name duplicate" Value="" />
+  <Rule Name="Inheritance Link code duplicate" Value="" />
+  <Rule Name="Inheritance Link entity missing" Value="Error" />
+  <Rule Name="Inheritance Link inheritance missing" Value="Error" />
+  <Rule Name="Attribute name missing" Value="Error" />
+  <Rule Name="Attribute code missing" Value="Warning" />
+  <Rule Name="Attribute comment missing" Value="Warning" />
+  <Rule Name="Attribute description missing" Value="Information" />
+  <Rule Name="Attribute is indentifier but not mandatory" Value="Error" />
+  <Rule Name="Attribute name duplicate" Value="Error" />
+  <Rule Name="Attribute code duplicate" Value="Error" />
+  <Rule Name="Identifier name missing" Value="Error" />
+  <Rule Name="Identifier code missing" Value="Warning" />
+  <Rule Name="Identifier comment missing" Value="Warning" />
+  <Rule Name="Identifier description missing" Value="Information" />
+  <Rule Name="Identifier name duplicate" Value="Error" />
+  <Rule Name="Identifier code duplicate" Value="Error" />
+  <Rule Name="Identifier attribute missing" Value="Error" />
+ </Validation>
+ <LMDataItem Length="20" DataType="VARCHAR" OID="2" Name="username" ><![CDATA[starpick ???]]></LMDataItem>
+ <LMDataItem Length="100" DataType="VARCHAR" OID="3" Name="password" ><![CDATA[?????????]]></LMDataItem>
+ <LMDataItem Length="11" DataType="CHAR" OID="4" Name="phone" ><![CDATA[?????]]></LMDataItem>
+ <LMDataItem DataType="INTEGER" OID="5" Name="user_id" ><![CDATA[?????????????]]></LMDataItem>
+ <LMDataItem DataType="LONG VARBINARY" OID="7" Name="picSrc" ><![CDATA[????]]></LMDataItem>
+ <LMDataItem OID="9" Name="pic_id" ><![CDATA[??id]]></LMDataItem>
+ <LMDataItem Length="2000" DataType="VARCHAR" OID="11" Name="comment_content" ><![CDATA[????]]></LMDataItem>
+ <LMDataItem OID="12" Name="comment_id" />
+ <LMDataItem OID="16" Name="idolName" />
+ <LMDataItem OID="17" Name="picIntro" ><![CDATA[????]]></LMDataItem>
+ <LMDataItem OID="18" Name="note" />
+ <LMDataItem OID="19" Name="cloth brand" />
+ <LMDataItem OID="20" Name="cloth name" />
+ <LMDataItem OID="21" Name="intro" />
+ <LMDataItem OID="22" Name="price" />
+ <LMDataItem OID="23" Name="link" ><![CDATA[link]]></LMDataItem>
+ <LMDataItem OID="24" Name="tag_id" />
+ <LMDataItem OID="27" Name="bookmark_id" ><![CDATA[id]]></LMDataItem>
+ <LMDataItem OID="31" Name="bookmark_id" />
+</LMModel>
