@@ -50,6 +50,6 @@
 
   - [inception meeting (18-03-23)](Meet_recording/X1 meet_recording inception meeting (18-03-23))
 
-* X2 Tech/Work Report
+* X2 [Tech/Work Report](X2-Tech_Work Report)
 
   - 学号-title
