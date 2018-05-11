@@ -48,6 +48,12 @@
 	![](https://wx1.sinaimg.cn/mw1024/a111daecly1fqdnldy397j209h0hj0t1.jpg)
 	
 ## 3. Domian Model（领域模型）
+对 6.2 的正式或非正式用例建立 domain model
+
+业务对象：user，pictures, comments, idol, clothes(tag)
+
+![](image/domain_model.png)
+
 ## 4. State Model（状态模型）
 
 ### Starpick and Comment State Model
