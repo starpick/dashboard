@@ -6,7 +6,7 @@
 
 * 2、[Team profile（团队组建）](2_团队组建 team profile)
 
-* 3、Investigation（项目前期调研）
+* 3、[Investigation（项目前期调研）](3_项目前期调研 Starpick)
 
 * 4、Vision（项目愿景）
 
