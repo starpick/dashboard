@@ -52,7 +52,7 @@ StarPick week work
        <tr>
             <th>Joyce</th>
             <th>15331356</th>
-            <th></th>
+            <th>原型设计：注册/登陆页面</th>
         </tr>
         <tr>
             <th>Loneop</th>
@@ -90,7 +90,7 @@ StarPick week work
        <tr>
             <th>Joyce</th>
             <th>15331356</th>
-            <th></th>
+            <th>原型设计：首页/发布图片页面设计</th>
         </tr>
         <tr>
             <th>Loneop</th>
@@ -128,7 +128,7 @@ StarPick week work
        <tr>
             <th>Joyce</th>
             <th>15331356</th>
-            <th></th>
+            <th>原型设计：个人信息/图片详情页面设计，交互操作；编写brief用例</th>
         </tr>
         <tr>
             <th>Loneop</th>
@@ -166,7 +166,7 @@ StarPick week work
        <tr>
             <th>Joyce</th>
             <th>15331356</th>
-            <th></th>
+            <th>构建领域模型</th>
         </tr>
         <tr>
             <th>Loneop</th>
@@ -205,7 +205,7 @@ StarPick week work
        <tr>
             <th>Joyce</th>
             <th>15331356</th>
-            <th></th>
+            <th></th>
         </tr>
         <tr>
             <th>Loneop</th>
