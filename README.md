@@ -14,15 +14,15 @@
 
 * 6、[Requirement specification 需求规格说明](6_需求规格说明 Requirement specification)
 
-  - 6.1 Usecase Diagram（用例图）
+  - 6.1 [Usecase Diagram（用例图) ](6.1_Usecase Diagram)
 
-  - 6.2 Use Cases（用例+活动图）
+  - 6.2 [Use Cases（用例+活动图）](6.2_Use Cases)
 
   - 6.3 [Domian Model（领域模型）](6.3_Domain Model)
 
-  - 6.4 State Model（状态模型） 
+  - 6.4 [State Model（状态模型） ](6.4_State Model)
 
-  - 6.5 System Sequence Diagram（功能模型）
+  - 6.5 [System Sequence Diagram（功能模型）](6.5_System Sequence Diagram)
 
 * 7、Design（设计）
 
@@ -32,9 +32,9 @@
 
   - 7.2 Database design
 
-     - 7.2.1 用户及权限系统数据库设计
+     - 7.2.1 [用户及权限系统数据库设计 ](7.2.1 用户及权限系统数据库设计)
 
-     - 7.2.2 XX子系统数据课设计
+     - 7.2.2 [XX子系统数据库设计](7.2.2数据库设计)
 
      - 7.2.x 第三方数据评审结果
 
