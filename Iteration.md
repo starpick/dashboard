@@ -93,8 +93,8 @@ StarPick week work
             <th></th>
         </tr>
         <tr>
-            <th></th>
-            <th></th>
+            <th>Loneop</th>
+            <th>15331341</th>
             <th></th>
         </tr>
         <tr>
@@ -131,8 +131,8 @@ StarPick week work
             <th></th>
         </tr>
         <tr>
-            <th></th>
-            <th></th>
+            <th>Loneop</th>
+            <th>15331341</th>
             <th></th>
         </tr>
         <tr>
