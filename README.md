@@ -52,4 +52,12 @@
 
 * X2 [Tech/Work Report](X2-Tech_Work Report)
 
-  - 学号-title
+   - 学号-title
+  
+* XX [建模练习](XX建模练习)
+
+  - XX1 [虾米应用](XX建模练习/XX1_虾米音乐文档.md)
+ 
+  - XX2 [建模要求](XX建模练习/XX2_建模要求.md)
+ 
+  - XX3 [建模者答案与评价](XX建模练习/XX3_建模者答案与评价.md)
