@@ -1,4 +1,4 @@
-﻿# StarPick Product Backlog
+# StarPick Product Backlog
 
 ---
 
