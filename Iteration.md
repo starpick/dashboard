@@ -17,9 +17,9 @@ StarPick week work
             <th>编写产品特性文档</th>
         </tr>
         <tr>
-            <th></th>
-            <th></th>
-            <th></th>
+            <th>Loneop</th>
+            <th>15331341</th>
+            <th>分析项目需求</th>
         </tr>
         <tr>
             <th></th>
@@ -55,9 +55,9 @@ StarPick week work
             <th></th>
         </tr>
         <tr>
-            <th></th>
-            <th></th>
-            <th></th>
+            <th>Loneop</th>
+            <th>15331341</th>
+            <th>协同完善项目用例</th>
         </tr>
         <tr>
             <th></th>
@@ -169,9 +169,9 @@ StarPick week work
             <th></th>
         </tr>
         <tr>
-            <th></th>
-            <th></th>
-            <th></th>
+            <th>Loneop</th>
+            <th>15331341</th>
+            <th>搭建后端框架并完成部分后端功能</th>
         </tr>
         <tr>
             <th></th>
@@ -208,9 +208,9 @@ StarPick week work
             <th></th>
         </tr>
         <tr>
-            <th></th>
-            <th></th>
-            <th></th>
+            <th>Loneop</th>
+            <th>15331341</th>
+            <th>编写后端代码注册、登录功能</th>
         </tr>
         <tr>
             <th></th>
@@ -246,9 +246,9 @@ StarPick week work
             <th>编写注册登陆场景和发布图片场景的系统顺序图；编写建模练习文档；</th>
         </tr>
         <tr>
-            <th></th>
-            <th></th>
-            <th></th>
+            <th>Loneop</th>
+            <th>15331341</th>
+            <th>实现数据库的初步设计，编写用户评论场景系统顺序图</th>
         </tr>
         <tr>
             <th></th>
