@@ -56,7 +56,15 @@ StarPick Backlog
             <th>3</th>
             <th>在搜索页面，用户可以根据ID搜索其他用户，根据明星姓名搜索明星图片</th>
             <th>需要一个单独的搜索页面</th>
-        </tr>         
+        </tr>
+        <tr>
+            <th>6</th>
+            <th>点击Tag</th>
+            <th>40</th>
+            <th>3</th>
+            <th>用户在首页点击Tag， 可跳转到相应的详情页。</th>
+            <th> </th>
+        </tr>    
     </tbody>
 </table>
 
