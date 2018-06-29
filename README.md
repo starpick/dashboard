@@ -8,7 +8,7 @@
 
 * 3、[Investigation（项目前期调研）](3_项目前期调研 Starpick) √
 
-* 4、[Vision（项目愿景）](4_项目愿景 vision) √
+* 4、[Vision（项目愿景）](4_项目愿景 Vision) √
 
 * 5、[Product Backlog （产品特性）](5_产品特性 StarPick Product Backlog) √
 
