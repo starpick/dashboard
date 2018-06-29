@@ -2,41 +2,41 @@
 
 # [](#TOC)目录
  
-* 1、[About（项目规划)](1_项目规划 About) √
+* 1、[About（项目规划)](1_项目规划 About)
 
-* 2、[Team profile（团队组建）](2_团队组建 team profile) √
+* 2、[Team profile（团队组建）](2_团队组建 team profile)
 
-* 3、[Investigation（项目前期调研）](3_项目前期调研 Starpick) √
+* 3、[Investigation（项目前期调研）](3_项目前期调研 Starpick)
 
-* 4、[Vision（项目愿景）](4_项目愿景 Vision) √
+* 4、[Vision（项目愿景）](4_项目愿景 Vision)
 
-* 5、[Product Backlog （产品特性）](5_产品特性 StarPick Product Backlog) √
+* 5、[Product Backlog （产品特性）](5_产品特性 StarPick Product Backlog)
 
-* 6、[Requirement specification 需求规格说明](6_需求规格说明 Requirement specification) √
+* 6、[Requirement specification 需求规格说明](6_需求规格说明 Requirement specification)
 
-  - 6.1 [Usecase Diagram（用例图) ](6.1_Usecase Diagram) √
+  - 6.1 [Usecase Diagram（用例图) ](6.1_Usecase Diagram)
 
-  - 6.2 [Use Cases（用例+活动图）](6.2_Use Cases) √
+  - 6.2 [Use Cases（用例+活动图）](6.2_Use Cases)
 
-  - 6.3 [Domian Model（领域模型）](6.3_Domain Model) √
+  - 6.3 [Domian Model（领域模型）](6.3_Domain Model)
 
-  - 6.4 [State Model（状态模型） ](6.4_State Model) √
+  - 6.4 [State Model（状态模型） ](6.4_State Model)
 
-  - 6.5 [System Sequence Diagram（功能模型）](6.5_System Sequence Diagram) √
+  - 6.5 [System Sequence Diagram（功能模型）](6.5_System Sequence Diagram)
   
   - 6.6 [Supplementary Requirements（补充需求）](6.6_Supplementary Requirements)
 
 * 7、Design（设计）
 
-  - 7.1 [UI design](7_UI design) √
+  - 7.1 [UI design](7_UI design)
  
      - XX 用例 UI设计
 
   - 7.2 Database design
 
-     - 7.2.1 [用户及权限系统数据库设计](7.2.1 用户及权限系统数据库设计)√
+     - 7.2.1 [用户及权限系统数据库设计](7.2.1 用户及权限系统数据库设计)
 
-     - 7.2.2 [XX子系统数据库设计](7.2.2数据库设计)√
+     - 7.2.2 [XX子系统数据库设计](7.2.2数据库设计)
 
      - 7.2.x [第三方数据评审结果](7.2.x_第三方数据评审结果)
 
@@ -50,7 +50,7 @@
 
 * 8、[生产规范与指南](8_生产规范与指南)  
 
-  - 8.1 [XX 代码规范](8_生产规范与指南) √
+  - 8.1 [XX 代码规范](8_生产规范与指南)
 
   - 8.2 [REST API 设计规范](8.2_REST API 设计规范)
   
@@ -60,7 +60,7 @@
 
 * X1 meet_recording
 
-  - [inception meeting (18-03-23)](Meet_recording/X1 meet_recording inception meeting (18-03-23)) √
+  - [inception meeting (18-03-23)](Meet_recording/X1 meet_recording inception meeting (18-03-23))
   
   - [Iteration Log](Iteration)
 
@@ -74,8 +74,8 @@
   
 * XX 建模练习
 
-  - XX1 [虾米应用](XX建模练习/XX1_虾米音乐文档.md) √
+  - XX1 [虾米应用](XX建模练习/XX1_虾米音乐文档.md)
  
-  - XX2 [建模要求](XX建模练习/XX2_建模要求.md) √ 
+  - XX2 [建模要求](XX建模练习/XX2_建模要求.md)
  
-  - XX3 [建模者答案与评价](XX建模练习/XX3_建模者答案与评价.md)√ 
+  - XX3 [建模者答案与评价](XX建模练习/XX3_建模者答案与评价.md)
