@@ -23,6 +23,7 @@
   - 6.4 [State Model（状态模型） ](6.4_State Model) √
 
   - 6.5 [System Sequence Diagram（功能模型）](6.5_System Sequence Diagram) √
+  
   - 6.6 [Supplementary Requirements（补充需求）](6.6_Supplementary Requirements)
 
 * 7、Design（设计）
@@ -66,6 +67,7 @@
 * X2 [Tech/Work Report](X2-Tech_Work Report)
 
    - 学号-title
+
 * X3 [Final Report](X3_Final Report)
 
    - 学号-title
@@ -76,4 +78,4 @@
  
   - XX2 [建模要求](XX建模练习/XX2_建模要求.md) √ 
  
-  - XX3 [建模者答案与评价](XX建模练习/XX3_建模者答案与评价.md) √
+  - XX3 [建模者答案与评价](XX建模练习/XX3_建模者答案与评价.md)√ 
