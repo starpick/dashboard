@@ -65,5 +65,14 @@
             <th>-</th>
         </tr>
         <tr>
+        <tr>
+            <th>文档</th>
+            <th>5%</th>
+            <th>15%</th>
+            <th>10%</th>
+            <th>35%</th>
+            <th>35%</th>
+        </tr>
+        <tr>
   </tbody>
 </table>
