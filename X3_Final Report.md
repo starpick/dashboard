@@ -9,6 +9,8 @@
 
 [15331356 joyceyj](https://joyceyj.github.io/SAD-FinalReport/)
 
+[15331212 raybo](https://www.notion.so/Final-Report-e519ccc584b34aa9b092bed4cec48a22)
+
 
 
 ## 贡献率
@@ -17,7 +19,7 @@
     <thead>
         <tr>
             <th >制品</th>
-            <th style="text-align: center;">Raybo</th>
+            <th style="text-align: center;">Raybo 15331212</th>
             <th style="text-align: center;">Yan 15331334</th>
             <th style="text-align: center;">Loneop 15331341</th>
             <th style="text-align: center;">Xue 15331345</th>
