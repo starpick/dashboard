@@ -14,7 +14,7 @@ StarPick week work
        <tr>
             <th>Joyce</th>
             <th>15331356</th>
-            <th>编写产品特性文档</th>
+            <th>编写产品特性文档,分析项目需求</th>
         </tr>
         <tr>
             <th>Loneop</th>
@@ -205,7 +205,7 @@ StarPick week work
        <tr>
             <th>Joyce</th>
             <th>15331356</th>
-            <th></th>
+            <th>学习vue</th>
         </tr>
         <tr>
             <th>Loneop</th>
@@ -215,7 +215,7 @@ StarPick week work
         <tr>
             <th>Xue</th>
             <th>15331345</th>
-            <th>学习Diango</th>
+            <th>学习Django</th>
         </tr>
         <tr>
             <th></th>
@@ -243,7 +243,7 @@ StarPick week work
        <tr>
             <th>Joyce</th>
             <th>15331356</th>
-            <th>编写注册登陆场景和发布图片场景的系统顺序图；编写建模练习文档；</th>
+            <th>编写注册登陆场景和发布图片场景的系统顺序图；编写建模练习文档；学习vue</th>
         </tr>
         <tr>
             <th>Loneop</th>
@@ -281,7 +281,7 @@ StarPick week work
        <tr>
             <th>Joyce</th>
             <th>15331356</th>
-            <th></th>
+            <th>学习Django、vue</th>
         </tr>
         <tr>
             <th>Loneop</th>
@@ -319,7 +319,7 @@ StarPick week work
        <tr>
             <th>Joyce</th>
             <th>15331356</th>
-            <th></th>
+            <th>完善文档</th>
         </tr>
         <tr>
             <th>Loneop</th>
@@ -357,7 +357,7 @@ StarPick week work
        <tr>
             <th>Joyce</th>
             <th>15331356</th>
-            <th></th>
+            <th>学习vue</th>
         </tr>
         <tr>
             <th>Loneop</th>
@@ -395,7 +395,7 @@ StarPick week work
        <tr>
             <th>Joyce</th>
             <th>15331356</th>
-            <th></th>
+            <th>编写用户个人信息页面(me.vue)</th>
         </tr>
         <tr>
             <th>Loneop</th>
@@ -433,7 +433,7 @@ StarPick week work
        <tr>
             <th>Joyce</th>
             <th>15331356</th>
-            <th></th>
+            <th>继续编写用户个人信息静态页面(me.vue)</th>
         </tr>
         <tr>
             <th>Loneop</th>
@@ -471,7 +471,7 @@ StarPick week work
        <tr>
             <th>Joyce</th>
             <th>15331356</th>
-            <th></th>
+            <th>编写用户关注者页面(myfollow.vue)</th>
         </tr>
         <tr>
             <th>Loneop</th>
@@ -481,45 +481,7 @@ StarPick week work
         <tr>
             <th>Xue</th>
             <th>15331345</th>
-            <th>添加Ranking页面</th>
-        </tr>
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr> 
-    </tbody>
-</table>
-
-## week 16
-<table>
-    <thead>
-        <tr>
-            <th style="text-align: center;">NAME</th>
-            <th style="text-align: center;">学号</th>
-            <th style="text-align: center;">progress</th>
-        </tr>
-    </thead>
-    <tbody>
-       <tr>
-            <th>Joyce</th>
-            <th>15331356</th>
-            <th></th>
-        </tr>
-        <tr>
-            <th>Loneop</th>
-            <th>15331341</th>
-            <th></th>
-        </tr>
-        <tr>
-            <th>Xue</th>
-            <th>15331345</th>
-            <th>完善文档</th>
+            <th>添加Ranking页面;完善文档</th>
         </tr>
         <tr>
             <th></th>
@@ -547,7 +509,7 @@ StarPick week work
        <tr>
             <th>Joyce</th>
             <th>15331356</th>
-            <th></th>
+            <th>测试项目并完善文档</th>
         </tr>
         <tr>
             <th>Loneop</th>
