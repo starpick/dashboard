@@ -35,8 +35,8 @@
        </tr>
             <th> REST 接口服务器（ServiceServer） </th>
             <th>-</th>
-            <th>30%</th>
-            <th>50%</th>
+            <th>10%</th>
+            <th>70%</th>
             <th>10%</th>
             <th>10%</th>
         </tr>
