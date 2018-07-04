@@ -1,6 +1,17 @@
 # StarPick
 
 # [](#TOC)目录
+
+项目展示(gif录屏)：
+
+[注册&查看排行榜](/image/注册排行.gif)
+
+[登陆&搜索tag&查看、关注用户](/image/登陆搜索tag关注用户.gif)
+
+[发布starpick&查看tag详情](/image/发布pick查看tag.gif)
+
+[点赞starpick&发表评论](/image/点赞发布评论.gif)
+
  
 * 1、[About（项目规划)](1_项目规划 About)
 
