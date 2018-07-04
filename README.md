@@ -12,7 +12,8 @@
 
 [点赞starpick&发表评论](/image/点赞发布评论.gif)
 
- 
+[演示视频(mp4格式)](/image/演示视频.mp4)
+
 * 1、[About（项目规划)](1_项目规划 About)
 
 * 2、[Team profile（团队组建）](2_团队组建 team profile)
