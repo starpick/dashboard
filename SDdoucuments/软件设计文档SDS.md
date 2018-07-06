@@ -65,13 +65,15 @@ starpick是基于移动端的web应用，该项目涉及到前端和后端开发
 * **用户管理模块**：通过点击用户名可以跳转到用户详情页面，对用户管理区分为登陆用户和其他用户，登陆用户自己的用户详情页面可以跳转到设置页面，所有用户都可以跳转到查看用户的发布的entry页面、关注者页面和粉丝页面
 * **搜索模块**：通过标签链接的内容进行查询，可以在搜索框中输入进行查询，也可以直接点击标签链接查询具有相同标签内容的entry
 
+前端/客户端的目录结构为：
+
 ```
-├─build：存放构建用到的相关文件
-├─config：存放配置文件
+├─build：存放构建用到的相关文件——在构建中设置了webpack的调用路径，使用了——webpack技术
+├─config：存放配置文件——在配置中设置了webpack的调用路径，使用了——webpack技术
 ├─static：存放前端静态资源
 ├─src：前端开发的源码
-├── components
-│   ├── .DS_Store
+├── components——组件的开发——使用了vue技术
+│   ├── .DS_Store
 │   ├── HomePage.vue首页
 │   ├── LoginPage.vue登陆注册页面
 │   ├── Me.vue用户详情页面
@@ -91,9 +93,9 @@ starpick是基于移动端的web应用，该项目涉及到前端和后端开发
 ├── App.vue
 ├── router
 │   ├── .DS_Store
-│   └── index.js
+│   └── index.js路由设置——使用了vue-router技术
 └── store
-    └── index.js
+    └── index.js用户的状态管理——使用了vuex技术
 
 ```
 按不同的模块进行分工，由不同的小组成员完成。
@@ -115,9 +117,9 @@ starpick是基于移动端的web应用，该项目涉及到前端和后端开发
 服务端主要进行数据管理及API的开发，按照数据库模型和用例设计进行了开发。
 完整的数据库模型为：
 
-![数据库模型](img/database.png)
+![数据库模型](https://raw.githubusercontent.com/starpick/dashboard/gh-pages/image/starpick722.bmp)
 
-使用Django administration，开启服务后进入http://127.0.0.1:8000/admin/，可以查看管理数据库。
+使用Django administration，开启服务后进入http://127.0.0.1:8000/admin/， 可以查看管理数据库。
 
 ![数据库管理](img/database_admin.png)
 
@@ -176,3 +178,5 @@ starpick是基于移动端的web应用，该项目涉及到前端和后端开发
     ├── urls.py
     └── views.py
 ```
+
+服务端实现的API接口说明为：[API设计](https://starpick.github.io/dashboard/7.3_API%E8%AE%BE%E8%AE%A1)
